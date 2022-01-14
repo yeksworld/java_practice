@@ -16,7 +16,7 @@ public class Main {
     public static void add() {
         int sum = 0;
         for (int i = 0; i <= 1000; i++) {
-            sum = i%3==1 ? sum+i:sum;r
+            sum = i%3==1 ? sum+i:sum;
 
           /*  if (i % 3 == 1) {
                 sum = sum + i;
