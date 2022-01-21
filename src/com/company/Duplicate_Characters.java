@@ -22,6 +22,7 @@ public class Duplicate_Characters {
             for (Character c : charCountMap.keySet()) {
                 if (charCountMap.get(c) > 1)
                     System.out.println("duplicate character : " + c + " ====== " + " count : " + charCountMap.get(c));
+                    System.out.println(charCountMap);
 
             }
 
